@@ -1,0 +1,15 @@
+version: '3'
+services:
+  postgres:
+    container_name: 'pg_titanic'
+    image: 'pg_titanic:latest'
+    ports:
+      - "5432:5432"
+    environment:
+      - "POSTGRES_USER=root"
+      - "POSTGRES_PASSWORD=password"
+      - "POSTGRES_HOST_AUTH_METHOD=trust"
+      - "POSTGRES_DB=titanic"
+    volumes:
+      - "${PWD}/pgdata:/var/lib/postgresql/data"
+    
