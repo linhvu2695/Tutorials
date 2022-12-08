@@ -1,0 +1,4 @@
+DATABASE = "mnistdb"
+COLLECTION = "mnist"
+TRAIN_NUM = 60000
+INPUT_SHAPE = (28,28)
