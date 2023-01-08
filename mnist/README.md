@@ -16,8 +16,8 @@ pyenv.uninstall <version>
 
 ### 2. Virtual Env Creation & Activation
 
-- `python3 -m venv venv` for initialising the virtual environment
-- `source venv/bin/activate` for activating the virtual environment
+- `python3 -m venv env` for initialising the virtual environment
+- `source env/bin/activate` for activating the virtual environment
 - An `env` directory shall be created in your project. Take note to include it in `.gitignore`
 
 ### 3. Dependency Installation
